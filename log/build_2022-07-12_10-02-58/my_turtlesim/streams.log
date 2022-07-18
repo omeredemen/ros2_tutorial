@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/omer/Desktop/dev_ws/build/my_turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/my_turtlesim -- -j8 -l8
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/myTurtle_node.dir/src/turtlesim_node.cpp.o[0m
+[8.296s] [100%] [32m[1mLinking CXX executable myTurtle_node[0m
+[8.730s] [100%] Built target myTurtle_node
+[8.739s] Invoked command in '/home/omer/Desktop/dev_ws/build/my_turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/my_turtlesim -- -j8 -l8
+[8.762s] Invoking command in '/home/omer/Desktop/dev_ws/build/my_turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/my_turtlesim
+[8.767s] -- Install configuration: ""
+[8.767s] -- Installing: /home/omer/Desktop/dev_ws/install/my_turtlesim/lib/my_turtlesim/myTurtle_node
+[8.771s] -- Set runtime path of "/home/omer/Desktop/dev_ws/install/my_turtlesim/lib/my_turtlesim/myTurtle_node" to ""
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/package_run_dependencies/my_turtlesim
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/parent_prefix_path/my_turtlesim
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/ament_prefix_path.sh
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/ament_prefix_path.dsv
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/path.sh
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/path.dsv
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.bash
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.sh
+[8.771s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.zsh
+[8.772s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.dsv
+[8.772s] -- Installing: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/package.dsv
+[8.772s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/packages/my_turtlesim
+[8.772s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/cmake/my_turtlesimConfig.cmake
+[8.772s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/cmake/my_turtlesimConfig-version.cmake
+[8.772s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/package.xml
+[8.773s] Invoked command in '/home/omer/Desktop/dev_ws/build/my_turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/my_turtlesim

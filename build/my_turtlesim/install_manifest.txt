@@ -1,0 +1,16 @@
+/home/omer/Desktop/dev_ws/install/my_turtlesim/lib/my_turtlesim/myTurtle_node
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/package_run_dependencies/my_turtlesim
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/parent_prefix_path/my_turtlesim
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/ament_prefix_path.sh
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/ament_prefix_path.dsv
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/path.sh
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/path.dsv
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.bash
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.sh
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.zsh
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.dsv
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/package.dsv
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/packages/my_turtlesim
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/cmake/my_turtlesimConfig.cmake
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/cmake/my_turtlesimConfig-version.cmake
+/home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/package.xml

@@ -1,0 +1,11 @@
+[0.013s] Invoking command in '/home/omer/Desktop/dev_ws/build/sbus_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/sbus_demo -- -j8 -l8
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target sbus_demo[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/sbus_demo.dir/src/sbus.cpp.o[0m
+[4.701s] [100%] [32m[1mLinking CXX executable sbus_demo[0m
+[5.125s] /usr/bin/ld: CMakeFiles/sbus_demo.dir/src/sbus.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':
+[5.125s] sbus.cpp:(.text+0x76c): undefined reference to `SBUS::sbus::sbus()'
+[5.142s] collect2: error: ld returned 1 exit status
+[5.143s] gmake[2]: *** [CMakeFiles/sbus_demo.dir/build.make:159: sbus_demo] Error 1
+[5.143s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sbus_demo.dir/all] Error 2
+[5.143s] gmake: *** [Makefile:146: all] Error 2
+[5.145s] Invoked command in '/home/omer/Desktop/dev_ws/build/sbus_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/sbus_demo -- -j8 -l8

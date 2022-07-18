@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/omer/Desktop/dev_ws/build/sbus_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/sbus_demo -- -j8 -l8
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target sbus_demo[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/sbus_demo.dir/src/sbus.cpp.o[0m
+[2.076s] [01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:[m[K In member function ‘[01m[KSBUS::SbusMsg SBUS::sbus::transmitSerialSbusMessages(int*) const[m[K’:
+[2.076s] [01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:175:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.077s]   175 |     [01;35m[K}[m[K
+[2.077s]       |     [01;35m[K^[m[K
+[2.675s] [100%] [32m[1mLinking CXX executable sbus_demo[0m
+[2.787s] [100%] Built target sbus_demo
+[2.797s] Invoked command in '/home/omer/Desktop/dev_ws/build/sbus_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/sbus_demo -- -j8 -l8
+[2.821s] Invoking command in '/home/omer/Desktop/dev_ws/build/sbus_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/sbus_demo
+[2.826s] -- Install configuration: ""
+[2.826s] -- Installing: /home/omer/Desktop/dev_ws/install/sbus_demo/lib/sbus_demo/sbus_demo
+[2.827s] -- Set runtime path of "/home/omer/Desktop/dev_ws/install/sbus_demo/lib/sbus_demo/sbus_demo" to ""
+[2.827s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/ament_index/resource_index/package_run_dependencies/sbus_demo
+[2.827s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/ament_index/resource_index/parent_prefix_path/sbus_demo
+[2.827s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/environment/ament_prefix_path.sh
+[2.827s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/environment/ament_prefix_path.dsv
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/environment/path.sh
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/environment/path.dsv
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/local_setup.bash
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/local_setup.sh
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/local_setup.zsh
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/local_setup.dsv
+[2.828s] -- Installing: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/package.dsv
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/ament_index/resource_index/packages/sbus_demo
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/cmake/sbus_demoConfig.cmake
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/cmake/sbus_demoConfig-version.cmake
+[2.828s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/sbus_demo/share/sbus_demo/package.xml
+[2.830s] Invoked command in '/home/omer/Desktop/dev_ws/build/sbus_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/sbus_demo

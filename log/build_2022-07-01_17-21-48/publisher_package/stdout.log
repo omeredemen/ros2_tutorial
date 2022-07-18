@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/lib/publisher_package/talker
+-- Installing: /home/omer/Desktop/dev_ws/install/publisher_package/lib/publisher_package/listener
+-- Set runtime path of "/home/omer/Desktop/dev_ws/install/publisher_package/lib/publisher_package/listener" to ""
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/ament_index/resource_index/package_run_dependencies/publisher_package
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/ament_index/resource_index/parent_prefix_path/publisher_package
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/ament_prefix_path.sh
+-- Installing: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/path.sh
+-- Installing: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/path.dsv
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.bash
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.sh
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.zsh
+-- Installing: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.dsv
+-- Installing: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/package.dsv
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/ament_index/resource_index/packages/publisher_package
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/cmake/publisher_packageConfig.cmake
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/cmake/publisher_packageConfig-version.cmake
+-- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/package.xml

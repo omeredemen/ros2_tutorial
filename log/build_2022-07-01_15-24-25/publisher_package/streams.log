@@ -1,0 +1,144 @@
+[0.011s] Invoking command in '/home/omer/Desktop/dev_ws/build/publisher_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/publisher_package -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/publisher_package
+[0.079s] -- The C compiler identification is GNU 11.2.0
+[0.125s] -- The CXX compiler identification is GNU 11.2.0
+[0.132s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.255s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.264s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[0.470s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.509s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.513s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.608s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.610s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.680s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.701s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.888s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.072s] -- Configuring done
+[1.079s] -- Generating done
+[1.080s] -- Build files have been written to: /home/omer/Desktop/dev_ws/build/publisher_package
+[1.088s] Invoked command in '/home/omer/Desktop/dev_ws/build/publisher_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/publisher_package -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/publisher_package
+[1.090s] Invoking command in '/home/omer/Desktop/dev_ws/build/publisher_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8
+[1.126s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o[0m
+[1.300s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:20:36:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[1.300s]    20 |             msg.data = std::string([01;35m[K"[m[KThis mesagge is %d. publishing message
+[1.300s]       |                                    [01;35m[K^[m[K
+[1.300s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:20:36:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[1.300s]    20 |             msg.data = std::string([01;31m[K"This mesagge is %d. publishing message[m[K
+[1.300s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.300s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:21:50:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[1.300s]    21 |                                    from publisher[01;35m[K"[m[K, counter_);
+[1.300s]       |                                                  [01;35m[K^[m[K
+[1.300s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:21:50:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[1.300s]    21 |                                    from publisher[01;31m[K", counter_);[m[K
+[1.301s]       |                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[3.058s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:6:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[3.058s]     6 | [01;31m[K{[m[K
+[3.058s]       | [01;31m[K^[m[K
+[3.058s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:8:9:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kpublisher[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.058s]     8 |         [01;31m[Kpublisher[m[K(): Node(publisher), counter_(1){
+[3.058s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.061s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:[m[K In member function ‘[01m[Kint publisher_node::publisher()[m[K’:
+[3.061s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:8:22:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[3.061s]     8 |         publisher(): [01;31m[KNode[m[K(publisher), counter_(1){
+[3.061s]       |                      [01;31m[K^~~~[m[K
+[3.061s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:8:22:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kpublisher_node[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[3.061s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:9:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass publisher_node[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[3.061s]     9 |             publisher_ = this-> [01;31m[Kcreate_publisher[m[K<example_interfaces::msg
+[3.061s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.061s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:10:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.062s]    10 |             ::String[01;31m[K>[m[K("publisher_topic", 10);
+[3.062s]       |                     [01;31m[K^[m[K
+[3.062s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:10:23:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.062s]    10 |             ::String>([01;35m[K"publisher_topic"[m[K, 10);
+[3.062s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[3.062s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:11:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass publisher_node[m[K’ has no member named ‘[01m[Kcreate_wall_timer[m[K’
+[3.062s]    11 |             timer_ = this -> [01;31m[Kcreate_wall_timer[m[K(std::chrono::milliseconds(1),
+[3.062s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.062s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:12:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ is not a class, namespace, or enumeration
+[3.062s]    12 |                                                std::bind(&[01;31m[Kpublisher[m[K::callBack,this));
+[3.062s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[3.062s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[3.062s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.063s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.063s]                  from [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:1[m[K:
+[3.063s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass publisher_node[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[3.063s]    13 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publisher Example");
+[3.063s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[3.063s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass publisher_node[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[3.063s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.063s]    13 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher Example");
+[3.064s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.064s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.064s]    13 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher Example");
+[3.064s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.064s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.064s]    13 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher Example");
+[3.064s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.064s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.064s]    13 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher Example");
+[3.064s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.064s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.064s]    13 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publisher Example");
+[3.064s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[3.064s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.065s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.065s]                  from [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:1[m[K:
+[3.065s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass publisher_node[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[3.065s]    13 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publisher Example");
+[3.065s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[3.066s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:13:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass publisher_node[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[3.066s]    13 |             RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Publisher Example");
+[3.066s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[3.066s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.066s]    14 |         [01;35m[K}[m[K
+[3.066s]       |         [01;35m[K^[m[K
+[3.066s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:[m[K In member function ‘[01m[Kvoid publisher_node::callBack()[m[K’:
+[3.066s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:21:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kfrom[m[K’ was not declared in this scope; did you mean ‘[01m[Kfromfp[m[K’?
+[3.066s]    21 |                                    [01;31m[Kfrom[m[K publisher", counter_);
+[3.066s]       |                                    [01;31m[K^~~~[m[K
+[3.066s]       |                                    [32m[Kfromfp[m[K
+[3.066s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:[m[K At global scope:
+[3.066s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:31:5:[m[K [01;31m[Kerror: [m[Kcannot declare ‘[01m[K::main[m[K’ to be a global variable
+[3.066s]    31 | int [01;31m[Kmain[m[K(argc, char argv**){
+[3.067s]       |     [01;31m[K^~~~[m[K
+[3.068s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+[3.068s]    31 | int main([01;31m[Kargc[m[K, char argv**){
+[3.068s]       |          [01;31m[K^~~~[m[K
+[3.068s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:31:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+[3.068s]    31 | int main(argc, [01;31m[Kchar[m[K argv**){
+[3.068s]       |                [01;31m[K^~~~[m[K
+[3.068s] [01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:31:27:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.069s]    31 | int main(argc, char argv**[01;31m[K)[m[K{
+[3.069s]       |                           [01;31m[K^[m[K
+[3.431s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_node.cpp.o] Error 1
+[3.431s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[3.431s] gmake: *** [Makefile:146: all] Error 2
+[3.433s] Invoked command in '/home/omer/Desktop/dev_ws/build/publisher_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8

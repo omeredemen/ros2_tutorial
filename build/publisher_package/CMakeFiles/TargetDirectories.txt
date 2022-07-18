@@ -1,0 +1,11 @@
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/uninstall.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/publisher_package_uninstall.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/talker.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/listener.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/test.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/edit_cache.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/rebuild_cache.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/list_install_components.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/install.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/install/local.dir
+/home/omer/Desktop/dev_ws/build/publisher_package/CMakeFiles/install/strip.dir

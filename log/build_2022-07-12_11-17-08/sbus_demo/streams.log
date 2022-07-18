@@ -1,0 +1,5 @@
+[0.230s] Invoking command in '/home/omer/Desktop/dev_ws/build/sbus_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/sbus_demo -- -j8 -l8
+[0.642s] [35m[1mConsolidate compiler generated dependencies of target sbus_demo[0m
+[0.657s] [ 50%] [32mBuilding CXX object CMakeFiles/sbus_demo.dir/src/sbus.cpp.o[0m
+[5.477s] [100%] [32m[1mLinking CXX executable sbus_demo[0m
+[5.971s] [100%] Built target sbus_demo

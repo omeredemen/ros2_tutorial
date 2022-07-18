@@ -1,0 +1,10 @@
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/uninstall.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/sbus_demo_uninstall.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/sbus_demo.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/test.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/edit_cache.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/rebuild_cache.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/list_install_components.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/install.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/install/local.dir
+/home/omer/Desktop/dev_ws/build/sbus_demo/CMakeFiles/install/strip.dir

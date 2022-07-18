@@ -1,0 +1,10 @@
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/uninstall.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/my_turtlesim_uninstall.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/myTurtle_node.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/test.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/edit_cache.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/rebuild_cache.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/list_install_components.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/install.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/install/local.dir
+/home/omer/Desktop/dev_ws/build/my_turtlesim/CMakeFiles/install/strip.dir

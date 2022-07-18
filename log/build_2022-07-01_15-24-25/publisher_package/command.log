@@ -1,0 +1,4 @@
+Invoking command in '/home/omer/Desktop/dev_ws/build/publisher_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/publisher_package -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/publisher_package
+Invoked command in '/home/omer/Desktop/dev_ws/build/publisher_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/publisher_package -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/publisher_package
+Invoking command in '/home/omer/Desktop/dev_ws/build/publisher_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8
+Invoked command in '/home/omer/Desktop/dev_ws/build/publisher_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8

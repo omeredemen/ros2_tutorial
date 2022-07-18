@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000306] (publisher_package) JobQueued: {'identifier': 'publisher_package', 'dependencies': OrderedDict()}
+[0.000360] (publisher_package) JobStarted: {'identifier': 'publisher_package'}
+[0.008319] (publisher_package) JobProgress: {'identifier': 'publisher_package', 'progress': 'cmake'}
+[0.008977] (publisher_package) JobProgress: {'identifier': 'publisher_package', 'progress': 'build'}
+[0.009909] (publisher_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omer/Desktop/dev_ws/build/publisher_package', '--', '-j8', '-l8'], 'cwd': '/home/omer/Desktop/dev_ws/build/publisher_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omer'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omer'), ('OLDPWD', '/home/omer'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1159'), ('SYSTEMD_EXEC_PID', '1410'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19606'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omer'), ('JOURNAL_STREAM', '8:18414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edemen:@/tmp/.ICE-unix/1361,unix/edemen:/tmp/.ICE-unix/1361'), ('INVOCATION_ID', 'c2983995e5b94fa4974c05045e187ca9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RT45N1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:62b52b2e-d637-42bb-8fad-615b9efd85f7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/Desktop/dev_ws/build/publisher_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043834] (publisher_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.057498] (publisher_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[0.098790] (-) TimerEvent: {}
+[0.199083] (-) TimerEvent: {}
+[0.299389] (-) TimerEvent: {}
+[0.399721] (-) TimerEvent: {}
+[0.500047] (-) TimerEvent: {}
+[0.600386] (-) TimerEvent: {}
+[0.700699] (-) TimerEvent: {}
+[0.801023] (-) TimerEvent: {}
+[0.901355] (-) TimerEvent: {}
+[1.001682] (-) TimerEvent: {}
+[1.102023] (-) TimerEvent: {}
+[1.202368] (-) TimerEvent: {}
+[1.302691] (-) TimerEvent: {}
+[1.403030] (-) TimerEvent: {}
+[1.503376] (-) TimerEvent: {}
+[1.603709] (-) TimerEvent: {}
+[1.704003] (-) TimerEvent: {}
+[1.804301] (-) TimerEvent: {}
+[1.904639] (-) TimerEvent: {}
+[2.004921] (-) TimerEvent: {}
+[2.049410] (publisher_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kpublisher_node::publisher_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.049711] (publisher_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:7:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.049867] (publisher_package) StderrLine: {'line': b'    7 |         publisher_node(): Node(publisher_node\x1b[01;31m\x1b[K)\x1b[m\x1b[K, counter_(1){\n'}
+[2.049931] (publisher_package) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.060201] (publisher_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.060449] (publisher_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:27:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot declare \xe2\x80\x98\x1b[01m\x1b[K::main\x1b[m\x1b[K\xe2\x80\x99 to be a global variable\n'}
+[2.060589] (publisher_package) StderrLine: {'line': b'   27 | int \x1b[01;31m\x1b[Kmain\x1b[m\x1b[K(argc, char argv**){\n'}
+[2.060688] (publisher_package) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.063189] (publisher_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:27:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.063450] (publisher_package) StderrLine: {'line': b'   27 | int main(\x1b[01;31m\x1b[Kargc\x1b[m\x1b[K, char argv**){\n'}
+[2.063565] (publisher_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.063675] (publisher_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:27:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.063748] (publisher_package) StderrLine: {'line': b'   27 | int main(argc, \x1b[01;31m\x1b[Kchar\x1b[m\x1b[K argv**){\n'}
+[2.063808] (publisher_package) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.063867] (publisher_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:27:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.063931] (publisher_package) StderrLine: {'line': b'   27 | int main(argc, char argv**\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[2.063991] (publisher_package) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.105044] (-) TimerEvent: {}
+[2.205371] (-) TimerEvent: {}
+[2.305706] (-) TimerEvent: {}
+[2.406008] (-) TimerEvent: {}
+[2.506313] (-) TimerEvent: {}
+[2.606564] (-) TimerEvent: {}
+[2.706810] (-) TimerEvent: {}
+[2.807287] (-) TimerEvent: {}
+[2.856009] (publisher_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_node.cpp.o] Error 1\n'}
+[2.856324] (publisher_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.856552] (publisher_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.858802] (publisher_package) CommandEnded: {'returncode': 2}
+[2.887172] (publisher_package) JobEnded: {'identifier': 'publisher_package', 'rc': 2}
+[2.897969] (-) EventReactorShutdown: {}

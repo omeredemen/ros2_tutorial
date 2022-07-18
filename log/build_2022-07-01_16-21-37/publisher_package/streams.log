@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/omer/Desktop/dev_ws/build/publisher_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o[0m
+[3.770s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.944s] [100%] Built target talker
+[3.954s] Invoked command in '/home/omer/Desktop/dev_ws/build/publisher_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8
+[3.979s] Invoking command in '/home/omer/Desktop/dev_ws/build/publisher_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/publisher_package
+[3.984s] -- Install configuration: ""
+[3.984s] -- Installing: /home/omer/Desktop/dev_ws/install/publisher_package/lib/publisher_package/talker
+[3.985s] -- Set runtime path of "/home/omer/Desktop/dev_ws/install/publisher_package/lib/publisher_package/talker" to ""
+[3.985s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/ament_index/resource_index/package_run_dependencies/publisher_package
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/ament_index/resource_index/parent_prefix_path/publisher_package
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/ament_prefix_path.sh
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/ament_prefix_path.dsv
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/path.sh
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/environment/path.dsv
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.bash
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.sh
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.zsh
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/local_setup.dsv
+[3.986s] -- Installing: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/package.dsv
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/ament_index/resource_index/packages/publisher_package
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/cmake/publisher_packageConfig.cmake
+[3.986s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/cmake/publisher_packageConfig-version.cmake
+[3.987s] -- Up-to-date: /home/omer/Desktop/dev_ws/install/publisher_package/share/publisher_package/package.xml
+[3.988s] Invoked command in '/home/omer/Desktop/dev_ws/build/publisher_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/publisher_package

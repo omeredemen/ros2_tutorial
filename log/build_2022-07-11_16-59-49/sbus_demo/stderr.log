@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/sbus_demo.dir/src/sbus_demo.cpp.o: in function `main':
+sbus_demo.cpp:(.text+0x42): undefined reference to `SBUS::sbus::connectSerialPort()'
+/usr/bin/ld: CMakeFiles/sbus_demo.dir/src/sbus_demo.cpp.o: in function `sbus_demo::callback()':
+sbus_demo.cpp:(.text._ZN9sbus_demo8callbackEv[_ZN9sbus_demo8callbackEv]+0x1b): undefined reference to `SBUS::sbus::transmitSerialSbusMessages()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/sbus_demo.dir/build.make:159: sbus_demo] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sbus_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:[m[K In member function ‘[01m[Kvoid SBUS::sbus::transmitSerialSbusMessages()[m[K’:
+[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:100:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kbuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  100 |         uint8_t [01;35m[Kbuffer[m[K[kSbusFrameLength_];
+      |                 [01;35m[K^~~~~~[m[K

@@ -1,0 +1,5 @@
+[0.179s] Invoking command in '/home/omer/Desktop/dev_ws/build/publisher_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8
+[0.329s] [0mCMake Error: The source directory "/home/omer/Desktop/dev_ws/src/publisher_package" does not exist.
+[0.329s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.330s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.332s] Invoked command in '/home/omer/Desktop/dev_ws/build/publisher_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/publisher_package -- -j8 -l8

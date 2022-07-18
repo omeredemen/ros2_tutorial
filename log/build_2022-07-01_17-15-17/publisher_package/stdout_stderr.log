@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_node.cpp.o[0m
+[01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/subscriber_node.cpp:[m[K In constructor ‘[01m[Ksubscriber_node::subscriber_node()[m[K’:
+[01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/subscriber_node.cpp:8:97:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+    8 |                                 std::bind(&subscriber_node::callBack,this,std::placeholders::_1)[01;31m[K;[m[K
+      |                                                                                                 [01;31m[K^[m[K
+[01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/subscriber_node.cpp:7:81:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+    7 |                 subscription_ = this->create_subscription<std_msgs::msg::String>[01;36m[K([m[K"topic",10,
+      |                                                                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000560] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000634] (-) JobUnselected: {'identifier': 'publisher_package'}
+[0.000699] (-) JobUnselected: {'identifier': 'sbus_demo'}
+[0.000727] (my_turtlesim) JobQueued: {'identifier': 'my_turtlesim', 'dependencies': OrderedDict()}
+[0.000755] (my_turtlesim) JobStarted: {'identifier': 'my_turtlesim'}
+[0.099310] (-) TimerEvent: {}
+[0.207738] (-) TimerEvent: {}
+[0.296984] (my_turtlesim) JobProgress: {'identifier': 'my_turtlesim', 'progress': 'cmake'}
+[0.307850] (-) TimerEvent: {}
+[0.362615] (my_turtlesim) JobProgress: {'identifier': 'my_turtlesim', 'progress': 'build'}
+[0.363365] (my_turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omer/Desktop/dev_ws/build/my_turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/omer/Desktop/dev_ws/build/my_turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omer'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omer'), ('OLDPWD', '/home/omer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1188'), ('SYSTEMD_EXEC_PID', '2133'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9667'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omer/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omer'), ('JOURNAL_STREAM', '8:19402'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edemen:@/tmp/.ICE-unix/1400,unix/edemen:/tmp/.ICE-unix/1400'), ('INVOCATION_ID', '17acb9198b024259852e42b4575dc5da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9NHFP1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omer/Desktop/dev_ws/install/sbus_demo:/home/omer/Desktop/dev_ws/install/publisher_package:/home/omer/Desktop/dev_ws/install/my_turtlesim:/home/omer/Desktop/dev_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:82cc31be-1296-451f-9f54-17f0e13474d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/Desktop/dev_ws/build/my_turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omer/Desktop/dev_ws/install/sbus_demo:/home/omer/Desktop/dev_ws/install/publisher_package:/home/omer/Desktop/dev_ws/install/my_turtlesim:/home/omer/Desktop/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.414067] (-) TimerEvent: {}
+[0.524241] (-) TimerEvent: {}
+[0.624556] (-) TimerEvent: {}
+[0.724863] (-) TimerEvent: {}
+[0.825188] (-) TimerEvent: {}
+[0.925456] (-) TimerEvent: {}
+[1.025787] (-) TimerEvent: {}
+[1.126183] (-) TimerEvent: {}
+[1.226552] (-) TimerEvent: {}
+[1.327033] (-) TimerEvent: {}
+[1.427379] (-) TimerEvent: {}
+[1.527754] (-) TimerEvent: {}
+[1.628195] (-) TimerEvent: {}
+[1.653266] (my_turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/myTurtle_node.dir/src/turtlesim_node.cpp.o\x1b[0m\n'}
+[1.728386] (-) TimerEvent: {}
+[1.828971] (-) TimerEvent: {}
+[1.929601] (-) TimerEvent: {}
+[2.030065] (-) TimerEvent: {}
+[2.130456] (-) TimerEvent: {}
+[2.230994] (-) TimerEvent: {}
+[2.331411] (-) TimerEvent: {}
+[2.432064] (-) TimerEvent: {}
+[2.532473] (-) TimerEvent: {}
+[2.632849] (-) TimerEvent: {}
+[2.733349] (-) TimerEvent: {}
+[2.833621] (-) TimerEvent: {}
+[2.933960] (-) TimerEvent: {}
+[3.034288] (-) TimerEvent: {}
+[3.134717] (-) TimerEvent: {}
+[3.235070] (-) TimerEvent: {}
+[3.335479] (-) TimerEvent: {}
+[3.435823] (-) TimerEvent: {}
+[3.536222] (-) TimerEvent: {}
+[3.636563] (-) TimerEvent: {}
+[3.736825] (-) TimerEvent: {}
+[3.837125] (-) TimerEvent: {}
+[3.937535] (-) TimerEvent: {}
+[4.037834] (-) TimerEvent: {}
+[4.138144] (-) TimerEvent: {}
+[4.238433] (-) TimerEvent: {}
+[4.338772] (-) TimerEvent: {}
+[4.439113] (-) TimerEvent: {}
+[4.539452] (-) TimerEvent: {}
+[4.639733] (-) TimerEvent: {}
+[4.740020] (-) TimerEvent: {}
+[4.840339] (-) TimerEvent: {}
+[4.940680] (-) TimerEvent: {}
+[5.040986] (-) TimerEvent: {}
+[5.141328] (-) TimerEvent: {}
+[5.241645] (-) TimerEvent: {}
+[5.342063] (-) TimerEvent: {}
+[5.442387] (-) TimerEvent: {}
+[5.542693] (-) TimerEvent: {}
+[5.643002] (-) TimerEvent: {}
+[5.743325] (-) TimerEvent: {}
+[5.843652] (-) TimerEvent: {}
+[5.944065] (-) TimerEvent: {}
+[6.044430] (-) TimerEvent: {}
+[6.144815] (-) TimerEvent: {}
+[6.245273] (-) TimerEvent: {}
+[6.345691] (-) TimerEvent: {}
+[6.446098] (-) TimerEvent: {}
+[6.546507] (-) TimerEvent: {}
+[6.646867] (-) TimerEvent: {}
+[6.747251] (-) TimerEvent: {}
+[6.847674] (-) TimerEvent: {}
+[6.947968] (-) TimerEvent: {}
+[7.048316] (-) TimerEvent: {}
+[7.148576] (-) TimerEvent: {}
+[7.248865] (-) TimerEvent: {}
+[7.349206] (-) TimerEvent: {}
+[7.449467] (-) TimerEvent: {}
+[7.549781] (-) TimerEvent: {}
+[7.650098] (-) TimerEvent: {}
+[7.750396] (-) TimerEvent: {}
+[7.850680] (-) TimerEvent: {}
+[7.950987] (-) TimerEvent: {}
+[8.051407] (-) TimerEvent: {}
+[8.151713] (-) TimerEvent: {}
+[8.252002] (-) TimerEvent: {}
+[8.352285] (-) TimerEvent: {}
+[8.452860] (-) TimerEvent: {}
+[8.553172] (-) TimerEvent: {}
+[8.653487] (-) TimerEvent: {}
+[8.753791] (-) TimerEvent: {}
+[8.854127] (-) TimerEvent: {}
+[8.954435] (-) TimerEvent: {}
+[9.054868] (-) TimerEvent: {}
+[9.155203] (-) TimerEvent: {}
+[9.255573] (-) TimerEvent: {}
+[9.355929] (-) TimerEvent: {}
+[9.456235] (-) TimerEvent: {}
+[9.556525] (-) TimerEvent: {}
+[9.656815] (-) TimerEvent: {}
+[9.757085] (-) TimerEvent: {}
+[9.857426] (-) TimerEvent: {}
+[9.957837] (-) TimerEvent: {}
+[10.058198] (-) TimerEvent: {}
+[10.158603] (-) TimerEvent: {}
+[10.259011] (-) TimerEvent: {}
+[10.359320] (-) TimerEvent: {}
+[10.459721] (-) TimerEvent: {}
+[10.560150] (-) TimerEvent: {}
+[10.660518] (-) TimerEvent: {}
+[10.760886] (-) TimerEvent: {}
+[10.861185] (-) TimerEvent: {}
+[10.961535] (-) TimerEvent: {}
+[11.061920] (-) TimerEvent: {}
+[11.162291] (-) TimerEvent: {}
+[11.262684] (-) TimerEvent: {}
+[11.363071] (-) TimerEvent: {}
+[11.463405] (-) TimerEvent: {}
+[11.563741] (-) TimerEvent: {}
+[11.664062] (-) TimerEvent: {}
+[11.764393] (-) TimerEvent: {}
+[11.864705] (-) TimerEvent: {}
+[11.965229] (-) TimerEvent: {}
+[12.065809] (-) TimerEvent: {}
+[12.166126] (-) TimerEvent: {}
+[12.266564] (-) TimerEvent: {}
+[12.366934] (-) TimerEvent: {}
+[12.467346] (-) TimerEvent: {}
+[12.567841] (-) TimerEvent: {}
+[12.668216] (-) TimerEvent: {}
+[12.768541] (-) TimerEvent: {}
+[12.868896] (-) TimerEvent: {}
+[12.969212] (-) TimerEvent: {}
+[13.069530] (-) TimerEvent: {}
+[13.169815] (-) TimerEvent: {}
+[13.203643] (my_turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable myTurtle_node\x1b[0m\n'}
+[13.269953] (-) TimerEvent: {}
+[13.370378] (-) TimerEvent: {}
+[13.470888] (-) TimerEvent: {}
+[13.571300] (-) TimerEvent: {}
+[13.671671] (-) TimerEvent: {}
+[13.772061] (-) TimerEvent: {}
+[13.872475] (-) TimerEvent: {}
+[13.972807] (-) TimerEvent: {}
+[14.073233] (-) TimerEvent: {}
+[14.173883] (-) TimerEvent: {}
+[14.274256] (-) TimerEvent: {}
+[14.374759] (-) TimerEvent: {}
+[14.475101] (-) TimerEvent: {}
+[14.575624] (-) TimerEvent: {}
+[14.676228] (-) TimerEvent: {}
+[14.776595] (-) TimerEvent: {}
+[14.876908] (-) TimerEvent: {}
+[14.977217] (-) TimerEvent: {}
+[15.077469] (-) TimerEvent: {}
+[15.086887] (my_turtlesim) StdoutLine: {'line': b'[100%] Built target myTurtle_node\n'}
+[15.095979] (my_turtlesim) CommandEnded: {'returncode': 0}
+[15.112189] (my_turtlesim) JobProgress: {'identifier': 'my_turtlesim', 'progress': 'install'}
+[15.118601] (my_turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omer/Desktop/dev_ws/build/my_turtlesim'], 'cwd': '/home/omer/Desktop/dev_ws/build/my_turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'omer'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omer'), ('OLDPWD', '/home/omer'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1188'), ('SYSTEMD_EXEC_PID', '2133'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9667'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omer/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omer'), ('JOURNAL_STREAM', '8:19402'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/edemen:@/tmp/.ICE-unix/1400,unix/edemen:/tmp/.ICE-unix/1400'), ('INVOCATION_ID', '17acb9198b024259852e42b4575dc5da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9NHFP1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omer/Desktop/dev_ws/install/sbus_demo:/home/omer/Desktop/dev_ws/install/publisher_package:/home/omer/Desktop/dev_ws/install/my_turtlesim:/home/omer/Desktop/dev_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:82cc31be-1296-451f-9f54-17f0e13474d3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omer/Desktop/dev_ws/build/my_turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omer/Desktop/dev_ws/install/sbus_demo:/home/omer/Desktop/dev_ws/install/publisher_package:/home/omer/Desktop/dev_ws/install/my_turtlesim:/home/omer/Desktop/dev_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[15.172440] (my_turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.177666] (-) TimerEvent: {}
+[15.278030] (-) TimerEvent: {}
+[15.311653] (my_turtlesim) StdoutLine: {'line': b'-- Installing: /home/omer/Desktop/dev_ws/install/my_turtlesim/lib/my_turtlesim/myTurtle_node\n'}
+[15.317142] (my_turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/omer/Desktop/dev_ws/install/my_turtlesim/lib/my_turtlesim/myTurtle_node" to ""\n'}
+[15.317433] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/package_run_dependencies/my_turtlesim\n'}
+[15.317659] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/parent_prefix_path/my_turtlesim\n'}
+[15.317790] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/ament_prefix_path.sh\n'}
+[15.317923] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/ament_prefix_path.dsv\n'}
+[15.318044] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/path.sh\n'}
+[15.318162] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/environment/path.dsv\n'}
+[15.318281] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.bash\n'}
+[15.318399] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.sh\n'}
+[15.318517] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.zsh\n'}
+[15.318638] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/local_setup.dsv\n'}
+[15.318779] (my_turtlesim) StdoutLine: {'line': b'-- Installing: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/package.dsv\n'}
+[15.378200] (-) TimerEvent: {}
+[15.386823] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/ament_index/resource_index/packages/my_turtlesim\n'}
+[15.387355] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/cmake/my_turtlesimConfig.cmake\n'}
+[15.387588] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/cmake/my_turtlesimConfig-version.cmake\n'}
+[15.387796] (my_turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/omer/Desktop/dev_ws/install/my_turtlesim/share/my_turtlesim/package.xml\n'}
+[15.390686] (my_turtlesim) CommandEnded: {'returncode': 0}
+[15.478316] (-) TimerEvent: {}
+[15.578697] (-) TimerEvent: {}
+[15.678981] (-) TimerEvent: {}
+[15.779214] (-) TimerEvent: {}
+[15.879498] (-) TimerEvent: {}
+[15.964909] (my_turtlesim) JobEnded: {'identifier': 'my_turtlesim', 'rc': 0}
+[15.965580] (-) EventReactorShutdown: {}
