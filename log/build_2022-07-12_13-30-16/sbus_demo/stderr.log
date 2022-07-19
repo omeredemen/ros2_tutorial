@@ -1,4 +1,0 @@
-[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:[m[K In member function ‘[01m[KSBUS::SbusMsg SBUS::sbus::transmitSerialSbusMessages(int*) const[m[K’:
-[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:175:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
-  175 |     [01;35m[K}[m[K
-      |     [01;35m[K^[m[K

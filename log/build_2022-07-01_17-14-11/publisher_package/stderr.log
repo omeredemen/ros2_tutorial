@@ -1,7 +1,0 @@
-[01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/subscriber_node.cpp:[m[K In constructor ‘[01m[Ksubscriber_node::subscriber_node()[m[K’:
-[01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/subscriber_node.cpp:8:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
-    8 |                                 std::bind(&subscriber_node[01;31m[K,[m[Kthis,std::placeholders::_1);
-      |                                                           [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

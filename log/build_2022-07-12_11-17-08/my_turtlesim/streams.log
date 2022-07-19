@@ -1,3 +1,0 @@
-[0.092s] Invoking command in '/home/omer/Desktop/dev_ws/build/my_turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/my_turtlesim -- -j8 -l8
-[0.612s] [35m[1mConsolidate compiler generated dependencies of target myTurtle_node[0m
-[0.642s] [100%] Built target myTurtle_node

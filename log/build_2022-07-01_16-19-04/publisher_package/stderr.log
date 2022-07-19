@@ -1,7 +1,0 @@
-[01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/omer/Desktop/dev_ws/src/publisher_package/src/publisher_node.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kretun[m[K’ was not declared in this scope
-   31 |     [01;31m[Kretun[m[K 0;
-      |     [01;31m[K^~~~~[m[K
-gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

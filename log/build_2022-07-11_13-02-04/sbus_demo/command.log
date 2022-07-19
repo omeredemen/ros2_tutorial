@@ -1,2 +1,0 @@
-Invoking command in '/home/omer/Desktop/dev_ws/build/sbus_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/sbus_demo -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/sbus_demo
-Invoked command in '/home/omer/Desktop/dev_ws/build/sbus_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/sbus_demo -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/sbus_demo

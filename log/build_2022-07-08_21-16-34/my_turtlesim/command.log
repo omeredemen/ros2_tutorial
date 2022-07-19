@@ -1,6 +1,0 @@
-Invoking command in '/home/omer/Desktop/dev_ws/build/my_turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/my_turtlesim -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/my_turtlesim
-Invoked command in '/home/omer/Desktop/dev_ws/build/my_turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/omer/Desktop/dev_ws/src/my_turtlesim -DCMAKE_INSTALL_PREFIX=/home/omer/Desktop/dev_ws/install/my_turtlesim
-Invoking command in '/home/omer/Desktop/dev_ws/build/my_turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/my_turtlesim -- -j8 -l8
-Invoked command in '/home/omer/Desktop/dev_ws/build/my_turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omer/Desktop/dev_ws/build/my_turtlesim -- -j8 -l8
-Invoking command in '/home/omer/Desktop/dev_ws/build/my_turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/my_turtlesim
-Invoked command in '/home/omer/Desktop/dev_ws/build/my_turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omer/Desktop/dev_ws/build/my_turtlesim

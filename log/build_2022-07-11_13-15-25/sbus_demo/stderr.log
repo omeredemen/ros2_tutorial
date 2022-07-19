@@ -1,7 +1,0 @@
-[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:[m[K In constructor ‘[01m[KSBUS::sbus::sbus()[m[K’:
-[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus.cpp:10:20:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
-   10 |             return [01;31m[K0[m[K;
-      |                    [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/sbus_demo.dir/build.make:76: CMakeFiles/sbus_demo.dir/src/sbus.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sbus_demo.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

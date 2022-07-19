@@ -1,7 +1,0 @@
-[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus_demo.cpp:[m[K In constructor ‘[01m[Ksbus_demo::sbus_demo()[m[K’:
-[01m[K/home/omer/Desktop/dev_ws/src/sbus_demo/src/sbus_demo.cpp:13:24:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&sbus_demo::callback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
-   13 |             std::bind(&[01;31m[Kcallback[m[K,this));
-      |                        [01;31m[K^~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/sbus_demo.dir/build.make:76: CMakeFiles/sbus_demo.dir/src/sbus_demo.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/sbus_demo.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
