@@ -14,6 +14,11 @@ find_package(geometry_msgs REQUIRED)
 add_executable(myTurtle_node src/turtlesim_node.cpp)
 ament_target_dependencies(myTurtle_node rclcpp sensor_msgs geometry_msgs)
 
+install(DIRECTORY
+  launch 
+  DESTINATION share/${PROJECT_NAME}
+)
+
 install(TARGETS
 myTurtle_node
 DESTINATION lib/${PROJECT_NAME})
