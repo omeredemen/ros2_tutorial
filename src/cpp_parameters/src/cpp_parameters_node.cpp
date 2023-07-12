@@ -17,7 +17,7 @@ public:
     timer_ = this->create_wall_timer(
       1000ms, std::bind(&MinimalParam::timer_callback, this));
     my_param =
-      this->get_parameter("my_parameter").get_parameter_value().get<std::string>();
+      this->get_parameter("my_parameter").as_string();
   }
 
   void timer_callback()
